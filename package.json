@@ -1,6 +1,6 @@
 {
   "name": "just-render",
-  "author": "ulyssear <ulysse.arnaud@liigem.io>",
+  "author": "ulyssear <ulysse@arnaud.tech>",
   "version": "1.0.12",
   "description": "Build elements from string",
   "module": "./build/index.esm.js",
