@@ -1,7 +1,7 @@
 {
   "name": "@ulyssear/just-render",
   "author": "ulyssear <ulysse@arnaud.tech>",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Build elements from string",
   "main": "index.min.js",
   "repository": {
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/ulyssear/just-render#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "rome format --write --indent-style tab --line-width 160 --quote-style single index.js",
+    "format": "rome format --write --trailing-comma es5 --indent-style space --indent-size 2 --line-width 160 --quote-style single index.js",
     "lint": "rome check index.js",
     "lint:fix": "rome check --apply-suggested index.js",
     "build": "npm run format && npm run lint:fix && esbuild index.js --bundle --outfile=index.min.js --minify --sourcemap --platform=node"
