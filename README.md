@@ -17,7 +17,7 @@
   </a>
 
   <p align="center">
-    CSS-in-JS without CSS and JS
+    Just Render is a simple and lightweight library to render HTML templates.
     <br />
     <a href="https://github.com/ulyssear/just-render"><strong>Explore the docs »</strong></a>
     <br />
